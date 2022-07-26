@@ -1,45 +1,69 @@
-.container{
+.container {
     display: flex;
     flex-direction: row;
-    justify-content:start ;
+    justify-content: start;
 
 }
-.elements{color: aliceblue;
+
+.elements {
+    color: aliceblue;
     background-color: black;
- 
+
     height: 50px;
     width: 100px;
-  
+
     flex-grow: 1;
     text-align: center;
 }
-#ind2:link, #ind2:visited {
-background-color: #060000;
-color: white;
-padding: 15px 25px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
+
+#ind2:link,
+#ind2:visited {
+    background-color: #060000;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
-#ind2:hover, #ind2:active {
-background-color: rgb(79, 71, 71);
-color: #fc9d04;
+#ind2:hover,
+#ind2:active {
+    background-color: rgb(79, 71, 71);
+    color: #fc9d04;
 }
-p{font-size: 20px;
-color: rgb(255, 255, 255);}
-#ind1:link{color:blanchedalmond;
-background-color: transparent;
-text-decoration: none;}
-#ind1:hover{color:rgb(148, 136, 118);
-background-color: transparent;
-text-decoration: none;}
-#ind1{color:blanchedalmond;}
 
-#ind3:link{
-background-color: transparent;
-text-decoration: none;}
-#ind3:hover{color:rgb(148, 136, 118);
-background-color:transparent;
-text-decoration:underline;}
-#ind3{color:rgb(255, 254, 254);}
+p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#ind1:link {
+    color: blanchedalmond;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#ind1:hover {
+    color: rgb(148, 136, 118);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#ind1 {
+    color: blanchedalmond;
+}
+
+#ind3:link {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#ind3:hover {
+    color: rgb(148, 136, 118);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#ind3 {
+    color: rgb(255, 254, 254);
+}
